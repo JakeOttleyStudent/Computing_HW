@@ -1,0 +1,25 @@
+#Q1
+Colors = ["Navy", "Lighter Blue", "Even Lighter Blue", "Other Ambiguous Shades of Blue"]
+print(Colors)
+
+#Q2
+Numbers = list(range(30, 61, 3))
+print(Numbers)
+
+#Q3
+Weather = {"Sunny" : "play",
+          "Rainy" : "watching TV",
+          "Cloudy" : "walk"}
+print(Weather)
+Weather.update({"snowy" : "ski"})
+print(Weather)
+
+#Q4
+if score >= 90: 
+    print("A")
+elif score >= 80: 
+    print("B")
+elif score >= 70: 
+    print("C")
+else: 
+    print("F")
